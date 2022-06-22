@@ -1,0 +1,16 @@
+{
+  "name": "ProProcessor",
+  "version": "1.0.0",
+  "description": "Preprocessor heaven. A template for building web apps with Pug, Sass, and CoffeeScript, bundled with Parcel.",
+  "scripts": {
+    "start": "parcel src/templates/index.pug"
+  },
+  "author": "malted",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-coffeescript": "^2.6.2",
+    "@parcel/transformer-pug": "^2.6.2",
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
+  }
+}

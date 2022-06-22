@@ -1,0 +1,3 @@
+run = "npm run start"
+
+hidden=["dist", ".parcel-cache", ".gitignore"]

@@ -1,0 +1,41 @@
+#preprocessors
+    display: flex
+    flex-direction: row
+    gap: 1rem
+    div
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+        flex-basis: 100%
+        border: 2px solid black
+        padding: .5rem
+        gap: .5rem
+        p
+            font-weight: 200
+
+#pug > img
+    @include pug
+#sass > img
+    @include sass
+#coffeescript > img
+    @include coffeescript
+
+.open
+    display: flex !important
+    flex-direction: row !important
+    align-items: center
+    gap: 0.4rem
+    border: none !important
+    text-decoration: none
+    img
+        width: 1.5rem
+        height: 1.5rem
+
+    .desc
+        color: black
+        .path
+            font-weight: 700
+            background-color: #eff1f3
+            padding: 0.2rem 0.4rem
+            border-radius: 6px
